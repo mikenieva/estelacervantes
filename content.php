@@ -17,8 +17,10 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-body">
-
+		<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?php echo site_url(); ?>">Share</a></div>
 		<?php if ( 'post' == get_post_type() ) : ?>
+		<br>
+		<br>
 		<div class="entry-meta">
 			<?php sela_entry_meta(); ?>
 		</div><!-- .entry-meta -->
