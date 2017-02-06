@@ -17,7 +17,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-body">
-		<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?php echo site_url(); ?>">Share</a></div>
+		<div class="fb-share-button" data-href="<?php echo site_url(); ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?php echo site_url(); ?>">Share</a></div>
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<br>
 		<br>
