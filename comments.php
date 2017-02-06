@@ -10,5 +10,5 @@ if ( post_password_required() )
 ?>
 
 <div id="comments" class="comments-area">
-	<div class="fb-comments" data-href="<?php echo site_url(); ?>" data-numposts="100" data-width="100%"></div>
+	<div class="fb-comments" data-href="<?php echo get_permalink(); ?>" data-numposts="100" data-width="100%"></div>
 </div><!-- #comments -->
