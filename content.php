@@ -19,9 +19,7 @@
 	<div class="entry-body">
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="fb-share-button" data-href="<?php echo site_url(); ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?php echo site_url(); ?>">Share</a></div>
-		<br>
-		<br>
+
 		<div class="entry-meta">
 			<?php sela_entry_meta(); ?>
 		</div><!-- .entry-meta -->
@@ -33,6 +31,9 @@
 		</div><!-- .entry-summary -->
 		<?php else : ?>
 		<div class="entry-content">
+			<div class="fb-share-button" data-href="<?php echo site_url(); ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?php echo site_url(); ?>">Share</a></div>
+		<br>
+		<br>
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'sela' ) ); ?>
 			<?php
 				wp_link_pages( array(
