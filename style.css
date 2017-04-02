@@ -954,7 +954,7 @@ textarea {
 10.1 Layout
 --------------------------------------------------------------*/
 .site {
-	max-width: 1180px;
+	/* max-width: 1180px; */
 	padding-right: 2.33050%;
 	padding-left: 2.33050%;
 }
@@ -2008,8 +2008,8 @@ video {
 @media screen and (min-width: 1180px) {
 	/* Layout */
 	.site {
-		margin: 0 auto;
-		max-width: 1180px;
+		/* margin: 0 auto; */
+		/* max-width: 1180px; */
 		padding: 0;
 	}
 	.site-content {
@@ -2021,7 +2021,7 @@ video {
 	}
 	.content-area {
 		float: left;
-		width: 765px;
+		width: 985px;
 	}
 
 	/* Posts */
@@ -2086,7 +2086,7 @@ video {
 	}
 	.post-thumbnail + .entry-header {
 		background-color: #fff;
-		margin: -4em 0 1em 110px;
+		margin: -4em -15px 1em 110px;
 		min-height: 40px;
 		padding: 1.5em 1.5em 0 2.25em;
 	}
@@ -2136,3 +2136,15 @@ video {
     margin-bottom: 30px;
     margin-top: 30px;
     }
+
+
+@media screen and (min-width: 1180px) {
+.post-thumbnail {
+    margin-left: -55px;
+    width: 106.1%;
+	}    
+}    
+
+.entry-thumbnail img, .post-thumbnail img {
+    width: 100%;
+}
